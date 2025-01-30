@@ -1,35 +1,15 @@
 ---
 title: Introduction
 layout: default
-nac_order: 1
+nav_order: 1
 ---
 
 # Distillation Column Design & Analysis
 
-Problem: Design of a Binary Distillation Column for Ethanol-Water Separation. The results, including the number of theoretical stages (excl reboiler & condenser stages) & feed stage location will be summarised.
+## [*Background & Design Model*]
+Distillation is a separation technique based on volatility differences. Data sourced, from [*https://www.kaggle.com/datasets/jorgecote/distillation-column*], was generated from a mathematical model. Industrial considerations atypical data features like noise, outliers, and missing data have been added, in order to obtain industrial conditions in the dataset. The data contains There are 450 hours of operation at 0.1 hours of time sampling. Using this data, a distillation column was designed and in order for this to be accomplished certain assumptions had to be made. These assumptions included the distillate ethanol concentration, capping of the number of stages, feed temperature, and feed split of ethanol and water. Rudimentary equations were used to determine the vapour pressures of the components, the relative volatility, boil-up ratio, and equilibrium constants for separation.
 
-A distillation column is to separate an ethanol-water binary mixture. The system operates under the following conditions:
-[*Process Details*:]
+Using information in [*https://doi.org/10.18359/rcin.5644P], following the design of the distillation column, the data is standardised and used to predict the ethanol concentration using the sourced data for model building.
 
-[1. Feed Characteristics:]
-  Feed rate: 600 kmol/hr
-  Feed composition: 40 mol% ethanol
-  Feed condition: Saturated liquid
+[Problem:] Design of a Binary Distillation Column for Ethanol-Water Separation. The results, including the number of theoretical stages (excl reboiler & condenser stages) & feed stage location will be summarised. Then the distillate ethanol concentration will be predicted and compared to the actual concentration.
 
-[2. Product Streams:]
-  Distillate flow rate: 260 kmol/hr
-  Distillate composition: 95 mol% ethanol
-  Bottoms flow rate: 340 kmol/hr
-  Bottoms composition: 5 mol% ethanol
-
-[3. Column Operating Conditions:]
-  Pressure: 1.01 bar
-  Total liquid flow rate: 780 kmol/hr
-  Total vapor flow rate: 1040 kmol/hr
-
-[4. Additional Information/Assumptions:]
-  Column feed temperature: 350 K
-  Ethanol concentration in distillate: 0.805
-  Assume no heat losses, and the column operates at steady-state conditions.
-  Raoult's Law applies
-  Use the McCabe-Thiele method for analysis.
