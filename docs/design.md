@@ -1,7 +1,7 @@
 ---
 title: Column Design Information
 layout: default
-nav_order: 1
+nav_order: 2
 ---
 
 A distillation column is to separate an ethanol-water binary mixture. The system operates under the following conditions:
