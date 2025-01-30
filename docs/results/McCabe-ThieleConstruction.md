@@ -336,8 +336,9 @@ ax.grid(True, linestyle='--', alpha = 0.7)
 plt.show()
 ```
 
+![McCabe-Thiele Diagram for Ethanol-Water Mixture Separation](McCabe-Thiele.png)
 
-
+The distillation column for the 37% Ethanol-63% Water mixture is designed to have 9 stages. The rectifying section contains 4 stages, while the stripping section contains 5 stages. An additional stage would be added to both sections for the reboiler and condenser for a total of 11 stages. The feed stage location is identified to be either the 4th or 5th stage.
 
 
 
