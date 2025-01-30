@@ -12,11 +12,11 @@ navigation:
       - title: "Column Data Sorting & Initialising"
         url: "/result/sorting"
       - title: "McCabe-Thiele Construction"
-        url: "/distillation/MCC-construction"
+        url: "/result/MCC-construction"
       - title: "Test Data Operating & Analysis"
-        url: "/distillation/Analysis"
+        url: "/result/Analysis"
       - title: "Prediction Outcome, Explanation & Possible Improvements"
-        url: "/distillation/Conclusion"
+        url: "/result/Conclusion"
 plugins:
   - jekyll-feed
 permalink: /:title/  
