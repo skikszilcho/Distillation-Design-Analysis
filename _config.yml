@@ -3,6 +3,14 @@ description: "An example for the design of a ethanol-water distillation column u
 
 url: https://skikszilcho.github.io/
 
+permalink: pretty 
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
 
 # For copy button on code
 enable_copy_code_button: true
@@ -54,11 +62,19 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
 
-permalink: pretty 
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
-defaults:
-  - scope:
-      path: "docs" # an empty string here means all files in the project
-      type: "pages"
-    values:
-      layout: "default"
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+  # ignore:
+  #   envs: all
+
+
