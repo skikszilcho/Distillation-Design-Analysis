@@ -1,6 +1,6 @@
 ---
-title: "Column Data Sorting & Initialising"
-parent: "result"
+title: Column Data Sorting & Initialising
+parent: Result
 nav_order: 1
 ---
 
