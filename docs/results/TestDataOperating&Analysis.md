@@ -1,6 +1,6 @@
 ---
-title: "Test Data Operating & Analysis"
-parent: "result"
+title: Test Data Operating & Analysis
+parent: Result
 nav_order: 3
 ---
 
