@@ -2,6 +2,11 @@ title: "Distillation Column Design & Analysis"
 description: "An example for the design of a ethanol-water distillation column using a McCabe-Thiele Diagram and other standard chemical engineering formulae. Using a similarly sized distillation column data sourced from Kaggle, a model will be trained for predicting final ethanol distillate concentration and then tested on the designed column."
 
 url: https://skikszilcho.github.io/
+
+# Enable or disable the side/mobile menu globally
+# Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
+nav_enabled: true
+
 navigation:
   - title: "Introduction"
     url: "/"
@@ -18,6 +23,38 @@ navigation:
         url: "/result/Analysis"
       - title: "Prediction Outcome, Explanation & Possible Improvements"
         url: "/result/Conclusion"
+
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: nil
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
 plugins:
-  - jekyll-feed
-permalink: /:title/  
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+permalink: pretty 
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
