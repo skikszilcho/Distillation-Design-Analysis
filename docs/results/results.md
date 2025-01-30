@@ -1,5 +1,7 @@
 ---
-title: Distillation Column Results
-nav_order: 3
-has_children: true
+title: "Distillation Column Results"
+parent: "result"
+nav_order: 1
 ---
+
+Initially, Antoine constants 
