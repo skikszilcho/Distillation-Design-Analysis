@@ -1,8 +1,5 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: "Distillation Column Design & Analysis"
+description: "An example for the design of a ethanol-water distillation column using a McCabe-Thiele Diagram and other standard chemical engineering formulae. Using a similarly sized distillation column data sourced from Kaggle, a model will be trained for predicting final ethanol distillate concentration and then tested on the designed column."
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
