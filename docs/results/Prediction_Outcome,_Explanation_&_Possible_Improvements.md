@@ -1,6 +1,6 @@
 ---
-title: "Prediction Outcome, Explanation & Possible Improvements"
-parent: "result"
+title: Prediction Outcome, Explanation & Possible Improvements
+parent: Result
 nav_order: 4
 ---
 
