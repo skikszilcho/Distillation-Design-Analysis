@@ -1,6 +1,6 @@
 ---
-title: "McCabe-Thiele Construction"
-parent: "result"
+title: McCabe-Thiele Construction
+parent: Result
 nav_order: 2
 ---
 ## Initial Feed Flow
