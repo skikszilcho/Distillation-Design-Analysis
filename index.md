@@ -1,8 +1,7 @@
 ---
-title: Introductions
+title: Column Background Information
 layout: home
 nav_order: 1
-permalink: /
 ---
 
 # Distillation Column Design & Analysis
