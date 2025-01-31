@@ -30,7 +30,7 @@ mermaid:
   # Note: copy both `mermaid.esm.min.mjs` (v10+) or `mermaid.min.js` (<v10) and the associated `.map` file from the specified version of `mermaid/dist` to `/assets/js/`.
 
 # Enable or disable heading anchors
-heading_anchors: true
+heading_anchors: false
 
 # Enable or disable the side/mobile menu globally
 # Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
@@ -62,19 +62,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
 
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
 
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
-  # ignore:
-  #   envs: all
 
 
