@@ -2,6 +2,7 @@
 title: Column Data Sorting & Initialising
 parent: Result
 nav_order: 1
+url: https://skikszilcho.github.io/Distillation-Design-Analysis/Results/#Column-Data-Sorting
 ---
 
 The [Antoine constants] are first defined based on the initialization of assumed and given data. Subsequently, necessary calculations are performed to gather the required information for the column design. Relevant Python modules are imported, and the compound data, along with any assumptions, are initialized. Using this foundational information, key parameters such as the vaporization fraction (`psi`), q-value (`q`), boil-up ratio (`RB`), and separation efficiency (`alpha`) are calculated. The results are then organized for enhanced clarity and readability.
